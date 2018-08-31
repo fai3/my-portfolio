@@ -21,6 +21,10 @@
        background-color: transparent;
        height: auto;
        border-radius: 5px;
+       @mixin atSmall{
+        width: 210px; 
+        margin-right: 1rem;
+       }
        @mixin atMedium{
         width: 230px; 
         margin-right: 1rem;
@@ -29,18 +33,6 @@
         width: 300px; 
        }
    }
-   
-     
-    &__description{
-    color: $mainBlue;
-     margin:0 0 0 2.5rem;
-     font-weight: 100;
-     font-family: 'Open Sans Condensed';
-     font-size: .7rem;
-     @mixin atMedium{
-        font-size: 1rem;
-     }
-    }
     &__link-div{
         display: none;
         @mixin atLarge{

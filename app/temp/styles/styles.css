@@ -393,6 +393,14 @@ body{
        border-radius: 5px;
    }
 
+@media (min-width: 530px) {
+
+.site-header__logo-icon{
+        width: 210px; 
+        margin-right: 1rem
+   }
+    }
+
 @media (min-width: 800px) {
 
 .site-header__logo-icon{
@@ -406,21 +414,6 @@ body{
 .site-header__logo-icon{
         width: 300px
    }
-    }
-
-.site-header__description{
-    color: #2f5572;
-     margin:0 0 0 2.5rem;
-     font-weight: 100;
-     font-family: 'Open Sans Condensed';
-     font-size: .7rem;
-    }
-
-@media (min-width: 800px) {
-
-.site-header__description{
-        font-size: 1rem
-    }
     }
 
 .site-header__link-div{
@@ -747,7 +740,7 @@ body{
 }
 
 .large-hero__img{
-      width: 100%;
+      
       max-width:100%;
       display: block;
       height: 360px;
