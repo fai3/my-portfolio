@@ -369,6 +369,15 @@ body{
         background-color: rgba(10, 12, 10, 0.78);
     }
 
+@media (min-width: 800px) {
+
+.site-header{
+        background-color: rgba(10, 12, 10, 0.67);
+        position: fixed
+   
+}
+    }
+
 .site-header__logo{
         position:absolute;
        left: 50%;
@@ -404,16 +413,12 @@ body{
 @media (min-width: 800px) {
 
 .site-header__logo-icon{
-        width: 230px; 
+        
         margin-right: 1rem
    }
     }
 
 @media (min-width: 1200px) {
-
-.site-header__logo-icon{
-        width: 300px
-   }
     }
 
 .site-header__link-div{
@@ -425,8 +430,8 @@ body{
 .site-header__link-div{
             display: block;
             position:fixed;
-            top:2.3rem;
-            left: 20rem
+            top:1.5rem;
+            left: 15rem
     }
             .site-header__link-div:after{
             content:'';
@@ -740,7 +745,7 @@ body{
 }
 
 .large-hero__img{
-      
+      width: 100%;
       max-width:100%;
       display: block;
       height: 360px;
@@ -794,12 +799,12 @@ body{
 
 .large-hero__text-content{
         width: 35rem;
-        padding-top: 60px
+        padding-top: 0
 
   }
     }
 
-@media (min-width: 800px) {
+@media (min-width: 1200px) {
 
 .large-hero__text-content{
         width: 45rem
@@ -850,14 +855,16 @@ body{
 @media (min-width: 530px) {
 
 .large-hero__description{
-          font-size: 1.245rem
+          font-size: 1.245rem;
+          font-weight: 100
     }
     }
 
 @media (min-width: 800px) {
 
 .large-hero__description{
-          font-size: 1.745rem
+          font-size: 1.745rem;
+          margin-top:-1rem
     }
     }
 
@@ -1095,7 +1102,7 @@ body{
 
 .testimonial__photo{
         top:0;
-        margin:3rem 1rem 1rem 0
+        margin:2rem 1rem 1rem 0
 
     }
     }
@@ -1217,7 +1224,8 @@ body{
 
 .form li{
             display: inline-block;
-            margin-right:1.5rem
+            margin-right:1rem;
+            width: 180px
 
     }
             .form li li:last-child{
@@ -1293,4 +1301,13 @@ body{
 .footer a:hover{
             border-bottom: 2px solid #d59541;
             color: #000;
-        }  
+        }
+
+.reveal-item{
+opacity:0;
+transition: opacity .3s ease-out;
+}
+
+.reveal-item--is-visible{
+opacity:1;
+ } 

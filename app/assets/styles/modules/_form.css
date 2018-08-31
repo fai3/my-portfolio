@@ -16,7 +16,8 @@
         display: block;
         @mixin atLarge{
             display: inline-block;
-            margin-right:1.5rem;
+            margin-right:1rem;
+            width: 180px;
             li:last-child{
                 margin-right:0;
             }

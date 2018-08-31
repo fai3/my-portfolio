@@ -2,7 +2,7 @@
     position: relative;
     border-bottom: 5px solid $mainRed;
   &__img{
-      
+      width: 100%;
       max-width:100%;
       display: block;
       height: 360px;
@@ -32,9 +32,9 @@
 
       @mixin atMedium{
         width: 35rem;
-        padding-top: 60px;
+        padding-top: 0;
       }
-      @mixin atMedium{
+      @mixin atLarge{
         width: 45rem;
       }
 
@@ -71,12 +71,11 @@
         text-align: center;
         @mixin atSmall{
           font-size: 1.245rem;
-          
+          font-weight: 100;
         }
         @mixin atMedium{
           font-size: 1.745rem;
-          
-          
+          margin-top:-1rem;
         }
         @mixin atLarge{
           font-size: 2.45rem;
