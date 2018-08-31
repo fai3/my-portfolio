@@ -1,0 +1,88 @@
+.large-hero{
+    position: relative;
+    border-bottom: 5px solid $mainRed;
+  &__img{
+      width: 100%;
+      max-width:100%;
+      display: block;
+      height: 360px;
+      filter: blur(8px);
+      @mixin atSmall{
+        height: 400px;
+      }
+      @mixin atMedium{
+        height: 480px;
+      }
+      @mixin atLarge{
+        height:auto;
+      }
+  }
+  &__text-content{
+      position: absolute;
+      top: 50%;
+      left:50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      width: 22rem;
+      padding-top: 20px;
+      margin: 0 auto;
+      @mixin atSmall{
+        width: 25rem;
+      }
+
+      @mixin atMedium{
+        width: 35rem;
+        padding-top: 60px;
+      }
+      @mixin atMedium{
+        width: 45rem;
+      }
+
+  }
+    &__title{
+        /* font-family: 'Montserrat', sans-serif; */
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 300;
+        line-height: 1.3;
+        font-size: 1.3rem;
+        color:$mainOrange;
+        text-align: center;
+        @mixin atSmall{
+          font-size: 1.745rem;
+         
+        }
+        @mixin atMedium{
+          font-size: 2.345rem;
+          
+          
+        }
+        @mixin atLarge{
+          font-size: 3.845rem;
+          line-height: 1.5;
+          
+          
+        }
+    }
+    &__description{ 
+        color:#fff;
+        line-height: 1.3;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 100;
+        text-align: center;
+        @mixin atSmall{
+          font-size: 1.245rem;
+          
+        }
+        @mixin atMedium{
+          font-size: 1.745rem;
+          
+          
+        }
+        @mixin atLarge{
+          font-size: 2.45rem;
+        }
+    }
+    &__link{
+      border-bottom: 2px dotted $mainOrange;
+    }
+}

@@ -1,0 +1,41 @@
+.page-section{
+    padding: 2rem 0;
+    &--blue{
+        background-color:$mainBlue;
+    }
+    &__title{
+        opacity: .9;
+        border-bottom: 2px dotted $mainOrange;
+       padding-bottom: 3px;
+       text-align: center;
+       width: 300px;
+       margin:1rem auto -1rem auto;
+       @mixin atSmall{
+        width: 500px;
+        margin:0 auto;  
+        padding-bottom: 5px;
+       }
+       @mixin atMedium{
+        width: 500px;
+        margin:0 auto; 
+        padding-bottom: 8px; 
+       }
+       @mixin atLarge{
+        width: 700px;
+        margin:0 auto; 
+        padding-bottom: 10px; 
+       }
+       &:hover{
+           border-bottom: 0;
+           cursor: pointer;
+       }
+    }
+    &--no-b-margin{
+ margin-bottom:0;
+    }
+    &--orange{
+        /* background-color:rgba($mainBlue, 0.7); */
+        background-color: rgba(20, 5, 2, 0.993);
+    }
+    
+}
