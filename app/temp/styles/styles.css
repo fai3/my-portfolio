@@ -653,6 +653,7 @@ body{
 
 .primary-nav{
         float: right
+
 }
     }
 
@@ -708,7 +709,10 @@ body{
         height:60px;
         font-size: 1.7rem;
         background-color: transparent
-   }
+   }  
+            .primary-nav a.link-is-visible{
+                color: #f04;
+                }
     }
 
 .primary-nav a:hover{
