@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="temp/styles/styles.css">
 </head>
 <body>
-    <header id="home" class="site-header">
+    <header class="site-header">
      <div class="wrapper">
         <div class="site-header__logo">
             <a href="index.html" class="site-header__title"><img class="site-header__logo-icon" src="assets/images/logo2.png" alt="website's logo"></a>
@@ -29,15 +29,15 @@
         <div class="site-header__menu-content">
           <nav class="primary-nav">
             <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home" id="home-link">Home</a></li>
+            <li><a href="#projects" id="projects-link">Projects</a></li>
+            <li><a href="#contact" id="contact-link">Contact</a></li>
             </ul>
           </nav>
         </div>
      </div>
     </header> 
-    <div class="large-hero">
+    <div class="large-hero active-link" data-matching-link="#home-link" id="home">
       <picture>
             <source srcset="assets/images/hero--large.jpg 1206w, assets/images/hero--large.jpg 2412w" media="(min-width: 1380px)">
           <source srcset="assets/images/hero--medium.jpg 976w, assets/images/hero--medium.jpg 1954w" media="(min-width: 990px)">
@@ -56,7 +56,7 @@
         </div>
       </div>
     </div>
-    <section id="projects" class="page-section page-section--blue  reveal" style="height:600px">
+    <section id="projects" class="page-section page-section--blue  reveal active-link" style="height:600px" data-matching-link="#projects-link">
         <div class="wrapper">
             <h2 class="headline headline--medium page-section__title">Projects I 've completed</h2>
          <h2 class="headline headline--center headline--orange"><span>&#8628;</span></h2>
@@ -82,7 +82,7 @@
                       </script>
          </div>
     </section>
-    <section id="contact">
+    <section id="contact" data-matching-link="#contact-link" class="active-link">
        <div class="wrapper"> 
          <div class="row">
              <div class="row__medium-4">
