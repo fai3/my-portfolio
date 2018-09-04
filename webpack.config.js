@@ -6,6 +6,7 @@ module.exports = {
        filename: "App.js"
    },
    module: {
+    //    use rules instead of loaders
        rules: [
         {   
            loader: 'babel-loader',

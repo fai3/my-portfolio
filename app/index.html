@@ -1,136 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Faizan Qadir WOrdpress Developer & Front end Web developer</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:100,200,300,300i,400,500,600,600i,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,300i,400,500,600,600i,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin=""/>
-  <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw==" crossorigin=""></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
+        crossorigin=""></script>
     <link rel="stylesheet" href="temp/styles/styles.css">
 </head>
+
 <body>
     <header class="site-header">
-     <div class="wrapper">
-        <div class="site-header__logo">
-            <a href="index.html" class="site-header__title"><img class="site-header__logo-icon" src="assets/images/logo2.png" alt="website's logo"></a>
-            
-            <div class="site-header__link-div">
-            <a href="https://twitter.com/FaizanQadir19?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @FaizanQadir19</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <div class="wrapper">
+            <div class="site-header__logo">
+                <a href="index.html" class="site-header__title"><img class="site-header__logo-icon" src="assets/images/logo2.png"
+                        alt="website's logo"></a>
+
+                <div class="site-header__link-div">
+                    <a href="https://twitter.com/Fai346665236?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow
+                        @Fai3 Qadir</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+            <div class="site-header__menu-icon">
+                <div class="site-header__menu-icon__middle"></div>
+
+            </div>
+            <div class="site-header__menu-content">
+                <nav class="primary-nav">
+                    <ul>
+                        <li><a href="#home" id="home-link">Home</a></li>
+                        <li><a href="#projects" id="projects-link">Projects</a></li>
+                        <li><a href="#contact" id="contact-link">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
-        <div class="site-header__menu-icon">
-            <div class="site-header__menu-icon__middle"></div>
-            
-        </div>
-        <div class="site-header__menu-content">
-          <nav class="primary-nav">
-            <ul>
-            <li><a href="#home" id="home-link">Home</a></li>
-            <li><a href="#projects" id="projects-link">Projects</a></li>
-            <li><a href="#contact" id="contact-link">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-     </div>
-    </header> 
+    </header>
     <div class="large-hero active-link" data-matching-link="#home-link" id="home">
-      <picture>
+        <picture>
             <source srcset="assets/images/hero--large.jpg 1206w, assets/images/hero--large.jpg 2412w" media="(min-width: 1380px)">
-          <source srcset="assets/images/hero--medium.jpg 976w, assets/images/hero--medium.jpg 1954w" media="(min-width: 990px)">
-          <source srcset="assets/images/hero--small.jpg 762w,
+            <source srcset="assets/images/hero--medium.jpg 976w, assets/images/hero--medium.jpg 1954w" media="(min-width: 990px)">
+            <source srcset="assets/images/hero--small.jpg 762w,
           assets/images/hero--small.jpg 1520w" media="(min-width: 640px)">
-        <img class="large-hero__img" srcset="assets/images/hero--smaller.jpg 762w, assets/images/hero--smaller.jpg 1524w" alt="Laptop in dark Background">
-      </picture>
-      <div class="large-hero__text-content">
-        <div class="wrapper">
-            <h1 class="large-hero__title">WordPress Developer & Front-end WebDeveloper</h1> 
-            <p class="large-hero__description">Based on Islamabad, Pakistan. If  you wanna  web presense or employer looking to hire, get in touch with me 
-            <a class="large-hero__link" href="#">here</a>
-            </p>
-            <a class="btn btn--b-margin" href="#">I need a website <span class="btn__right-arrow">&gt;</span></a>
-            <a class="btn" href="">I am willing to hire<span class="btn__right-arrow">&gt;</span></a>
+            <img class="large-hero__img" srcset="assets/images/hero--smaller.jpg 762w, assets/images/hero--smaller.jpg 1524w" alt="Laptop in dark Background">
+        </picture>
+        <div class="large-hero__text-content">
+            <div class="wrapper">
+                <h1 class="large-hero__title">WordPress Developer & Front-end WebDeveloper</h1>
+                <p class="large-hero__description">Based on Islamabad, Pakistan. If you wanna web presense or employer looking
+                    to hire, get in touch with me
+                    <a class="large-hero__link" href="#">here</a>
+                </p>
+                <!-- <a class="btn btn--b-margin" href="#">I need a website <span class="btn__right-arrow">&gt;</span></a>
+                <a class="btn" href="">I am willing to hire<span class="btn__right-arrow">&gt;</span></a> -->
+            </div>
         </div>
-      </div>
     </div>
     <section id="projects" class="page-section page-section--blue  reveal active-link" style="height:600px" data-matching-link="#projects-link">
         <div class="wrapper">
             <h2 class="headline headline--medium page-section__title">Projects I 've completed</h2>
-         <h2 class="headline headline--center headline--orange"><span>&#8628;</span></h2>
+            <h2 class="headline headline--center headline--orange"><span>&#8628;</span></h2>
         </div>
     </section>
     <section id="map">
-         <div id="google-map" class="google-map page-section reveal">
-                <script>
-                        // position we will use later
-                        var lat = 33.626803;
-                        var lon = 72.981455;
-                        // initialize map
-                        map = L.map('google-map').setView([lat, lon], 13);
-                        // set map tiles source
-                        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                          attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
-                          maxZoom: 18,
-                        }).addTo(map);
-                        // add marker to the map
-                        marker = L.marker([lat, lon]).addTo(map);
-                        // add popup to the marker
-                        marker.bindPopup("<b>ALTARIQ ST.</b><br />This st. 9<br />Rawalpindi").openPopup();
-                      </script>
-         </div>
+        <div id="google-map" class="google-map page-section reveal">
+            <script>
+                // position we will use later
+                var lat = 33.626803;
+                var lon = 72.981455;
+                // initialize map
+                map = L.map('google-map').setView([lat, lon], 13);
+                // set map tiles source
+                L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+                    maxZoom: 18,
+                }).addTo(map);
+                // add marker to the map
+                marker = L.marker([lat, lon]).addTo(map);
+                // add popup to the marker
+                marker.bindPopup("<b>ALTARIQ ST.</b><br />This st. 9<br />Rawalpindi").openPopup();
+            </script>
+        </div>
     </section>
     <section id="contact" data-matching-link="#contact-link" class="active-link">
-       <div class="wrapper"> 
-         <div class="row">
-             <div class="row__medium-4">
-                 <div class="testimonial reveal">
-                    <div class="testimonial__photo">
-                        <img src="assets/images/me.png" alt="my pic"> 
+        <div class="wrapper">
+            <div class="row">
+                <div class="row__medium-4">
+                    <div class="testimonial reveal">
+                        <div class="testimonial__photo">
+                            <img src="assets/images/me.png" alt="my pic">
+                        </div>
+                        <a href="#" class="testimonial__btn">Contact</a>
+                        <ul>
+                            <li><a href="https://github.com/fai3/"><i class="fab fa-github testimonial__icon"></i></a></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=100010423727203"><i class="fab fa-facebook-f testimonial__icon"></i></a></li>
+                            <li><a href="https://twitter.com/Fai346665236"><i class="fab fa-twitter  testimonial__icon"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/faizan-qadir-36162b144/"><i class="fab fa-linkedin-in  testimonial__icon"></i></a></li>
+                        </ul>
                     </div>
-                    <a href="#" class="testimonial__btn">Contact</a>
-                    <ul>
-                        <li><a href="#"><i class="fab fa-github testimonial__icon"></i></a></li>
-                        <li><a href="#"><i class="fab fa-facebook-f testimonial__icon"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter  testimonial__icon"></i></a></li>
-                        <li><a href="#"><i class="fab fa-linkedin-in  testimonial__icon"></i></a></li> </ul>
-                  </div>
-             </div>
-             <div class="row__medium-8">
-                <form method="get" action="" class="form reveal">
-                    <ul>
-                     <li><input placeholder="Name" type="text"></li>
-                     <li><input placeholder="Email" type="text"></li>
-                     <li><input placeholder="Phone" type="tel"></li>
-                    </ul>
-                    <textarea placeholder="Message" class="form--t-margin" name="" id="" cols="30" rows="10"></textarea>
-                    <input type="submit" value="send">
-                </form>
-             </div>
-         </div>
-       </div>
+                </div>
+                <div class="row__medium-8">
+                    <!-- https://getsimpleform.com/messages?form_api_token=35992c7df06e829022cfb86ff11c2450 -->
+                    <form action="https://formspree.io/qadirf39@gmail.com" method="post" class="form reveal">
+                        <ul>
+                            <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                            <!-- <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' /> -->
+                            <li><input placeholder="Name" name='name' type="text"></li>
+                            <li><input placeholder="Email" name='email' type="text"></li>
+                            <li><input placeholder="Phone" name='phone' type="tel"></li>
+                        </ul>
+                        <textarea placeholder="Message" class="form--t-margin" name="message" id="" cols="30" rows="10"></textarea>
+                        <input class="submit" type="submit" value="send">
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
     <footer class="footer">
         <div class="wrapper">
-        <p>&copy; FaizanQadir.com  2018</p>
-        <a href="#">FACEBOOK</a>
+            <p>&copy; FaizanQadir.com 2018</p>
+            <a href="https://www.facebook.com/profile.php?id=100010423727203">FACEBOOK</a>
         </div>
     </footer>
     <script src="./temp/scripts/App.js"></script>
-    <!-- <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
-    <script>
-            $(document).ready(function () {
-                $("nav  a").click(function () {
-                    $("nav a").removeClass("navigation--current");
-                    $(this).addClass("navigation--current");
-                    
-                });
-            });
-        </script> -->
 </body>
+
 </html>
