@@ -1,0 +1,35 @@
+/* .site-logo{
+    position: absolute;
+    top: 2rem;
+    left:35%;
+    
+    @mixin atSmall{
+        width:400px;
+       padding: 1rem 3rem;
+        top: 2rem;
+        left: 20rem;
+    }
+   
+    &__img{
+        margin-right: .7rem;
+        margin-bottom: -.5rem;
+      @mixin atMedium{
+         margin-left: -1.86rem;
+        display:inline-block; *
+      }
+    }
+   
+    &__description{
+        text-align: center;
+       font-family: 'Open Sans Condensed', sans-serif;
+       font-size:1rem;
+       margin-left:2rem;
+   @atmixin atMedium{
+   font-size:.7rem;
+    margin-top:-1.3rem;
+    color: #fff;
+   }
+    }
+    
+} */
+/* Check all the paddings. If you add padding to something with width set to 100% it will go outside the parent. */

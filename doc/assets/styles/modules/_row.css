@@ -1,0 +1,26 @@
+.row {
+
+   
+
+    @mixin atMedium{
+        @mixin clearfix;
+        &__medium-4{
+            float: left;
+            width:30.33%;
+        }
+        &__medium-8{
+            float:left;
+            width:69.66%;
+        }
+    }
+    @mixin atLarge{
+        &__4-large{
+            float: left;
+            width:33.33%;
+        }
+        &__8-large{
+            float:left;
+            width:66.66%;
+        }
+    }
+}

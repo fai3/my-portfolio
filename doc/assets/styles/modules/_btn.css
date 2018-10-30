@@ -1,0 +1,56 @@
+.btn { 
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+   background-color: rgba($mainOrange, .67);
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-weight:100;
+   font-size: .8rem;
+   color: #fff;
+   width:10rem;
+   display: block;
+   padding:0.5rem;
+   border-radius:10px;
+   font-size: .9rem;
+   transition: all .3s ease-in-out;
+   @mixin atSmall{
+    width:13rem;
+    font-size: 1.145rem;
+  }
+  @mixin atMedium{
+  display: inline-block;
+  width:15rem;
+  left: 20%;
+  padding:.5rem;
+  font-size: 1.4rem;
+  }
+   &:hover{
+    color: rgba(#000, .35)
+  }
+  &--b-margin{
+    margin-bottom:.8rem;
+    @mixin atMedium{
+      margin:0;
+    }
+   }
+   
+  
+  /* &--center{
+    margin:.5rem auto;
+   
+   } */
+   &__right-arrow{
+    display: inline-block;
+    margin-left: .5rem;
+    font-size: 1rem;
+    position: absolute;
+    top:50%;
+    transform: translateY(-46%);
+    @mixin atSmall{
+      font-size: 1.4rem;
+    }
+   }
+  
+  
+  
+ }

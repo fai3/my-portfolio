@@ -1,0 +1,66 @@
+.form{
+    position: relative;
+    max-width:650px;
+    padding: 2rem 0;
+    text-align: center;
+    &--t-margin{
+        margin-top: 1.5rem;
+    }
+    ul{
+        margin:0;
+        padding:0;
+        @mixin clearfix;
+    }
+    li{
+        list-style: none;
+        display: block;
+        @mixin atLarge{
+            display: inline-block;
+            margin-right:1rem;
+            width: 180px;
+            li:last-child{
+                margin-right:0;
+            }
+        }
+
+    }
+    
+    li input{
+        border:none;
+        border-radius: 10px;
+        text-indent: 1.3rem;
+        font-size: 1.3rem;
+        font-family: 'Open Sans Condensed', sans-serif;
+        width: 100%;
+        margin-bottom:1.3rem;
+        background-color: rgba(222, 225, 228, 0.9);
+        padding:.7rem 0;
+        
+    }
+    textarea{
+        padding:1rem 0 0 0;
+      width:100%;
+      text-indent: 2rem;
+      border:none;
+      background-color: rgba(222, 225, 228, 0.9);
+      border-radius: 10px;
+      font-size: 1.3rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-top:0;
+   
+    }
+    input[type=submit]{
+        position: absolute;
+        right:0;
+        border: 1px solid $mainRed;
+        border-radius: 5px;
+        padding: 4px 8px;
+        color:$mainRed;
+        background-color: #fff;
+        cursor: pointer;
+        &:hover{
+            background-color: rgba($mainRed, .2);
+            border:none;
+        }
+    }
+} 

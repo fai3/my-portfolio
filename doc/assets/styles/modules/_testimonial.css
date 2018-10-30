@@ -1,0 +1,82 @@
+.testimonial{
+    text-align: center;
+    /* &--left-m{
+        margin-left: 8rem;
+    } */
+    img{
+        width: 195px;
+        height: 180px;
+    }
+    &__photo{
+        border: 4px solid rgba($mainRed, 1);
+        border-radius: 50%;
+        overflow:hidden;
+        width: 200px;
+        height: 190px;
+        left:50%;
+        transform: translateX(-50%);
+        position: relative;
+        top: -100px;
+        margin: 0 0 -95px 0;
+        opacity: 1;
+        transition:all .4s ease-out;
+       
+        &:hover{
+          opacity: .7; 
+          border: 4px solid rgba($mainBlue, 1); 
+        }
+        @mixin atMedium{
+        top:0;
+       margin:1.5rem 1rem 1rem 0;
+        }
+        @mixin atLarge{
+        top:0;
+        margin:2rem 1rem 1rem 0;
+        }
+
+    }
+    &__btn{
+        margin-top: 2rem;
+        text-align: right;
+        margin-left: .8rem;
+        background-color: $mainRed;
+        color:#fff;
+        border:none;
+        display:inline-block;
+        font-size: 1.8rem;
+        padding: .2rem 3rem;
+        border-radius: 8px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        transition: color .3s ease-in;
+        &:hover{
+            color: #000;
+        }
+        @mixin atMedium{
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+ul{
+    margin:0 0 0 1.2rem;
+    padding:0;
+    @mixin clearfix;
+    
+}
+li{
+    list-style:none;
+    display: inline-block;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+li a{
+    background-color: $mainRed;
+    color:#fff;
+    padding: 4px 7px;
+    border:4px dotted red;
+    border-radius: 10px;
+    &:hover{
+        color: $mainOrange;
+    }
+}
+}
