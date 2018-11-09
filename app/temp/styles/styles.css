@@ -341,20 +341,24 @@ template {
   display: none;
 }
 
-*{
-    box-sizing: border-box;
-
+* {
+  box-sizing: border-box;
 }
 
-a{
-    color: rgba(255,0,68, .7);
-    text-decoration: none;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 700;
+a {
+  color: rgba(255,0,68, 0.7);
+  text-decoration: none;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
 }
 
-body{
-    width: 100%;
+body {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  display: block;
 }
 
 .site-header{
@@ -592,62 +596,66 @@ body{
 
 /* Check all the paddings. If you add padding to something with width set to 100% it will go outside the parent. */
 
-.headline{
-    font-weight: 300;
-    font-family: 'Open Sans Condensed'sans-serif;
-    font-size: 1.9rem;
+.headline {
+  font-weight: 300;
+  font-family: "Open Sans Condensed" sans-serif;
+  font-size: 1.4rem;
 }
 
 @media (min-width: 800px) {
 
-.headline{
-        font-weight: 400;
+.headline {
+    font-weight: 400;
     font-size: 2.7rem
 }
     }
 
 @media (min-width: 1200px) {
 
-.headline{
-        font-size: 3.5rem
+.headline {
+    font-size: 3.5rem
 }
     }
 
-.headline--red{
+.headline--red {
     color: #f04;
-    }
+  }
 
-.headline--blue{
-        color: #2f5572; 
-    }
+.headline--blue {
+    color: #2f5572;
+  }
 
-.headline--orange{
-        color: #d59541; 
-    }
+.headline--orange {
+    color: #d59541;
+  }
 
-.headline--bold{
+.headline--bold {
     font-weight: 700;
- }
+  }
 
-.headline--large{
-    font-size:3.125rem; 
- }
+.headline--large {
+    font-size: 3.125rem;
+  }
 
-.headline--shadow{
+.headline--shadow {
     text-shadow: 2px 4px 50px #d59541;
- }
+  }
 
-.headline--center{
-     text-align: center;
- }
+.headline--center {
+    text-align: center;
+  }
 
-.headline--no-margin{
-    margin:0;
-}
+.headline--no-margin {
+    margin: 0;
+  }
 
-.headline--tiny{
+.headline--tiny {
     font-size: 1.0345rem;
-}
+  }
+
+.headline--white {
+    color: white;
+  }
 
 @media (min-width: 800px) {
 
@@ -877,17 +885,24 @@ body{
   padding: 2rem 0;
 }
 
+.page-section__bg-pic {
+    /* background-color: $mainOrange; */
+    background-image: url(../../assets/images/texture-orange.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
 .page-section--blue {
     background-color: #2f5572;
   }
 
 .page-section__title {
-    opacity: 0.9;
-    border-bottom: 2px dotted #d59541;
+    border-bottom: 2px dotted white;
     padding-bottom: 3px;
     text-align: center;
-    width: 300px;
-    margin: 1rem auto -1rem auto;
+    width: 280px;
+    margin: 1rem auto 0.7rem auto;
   }
 
 @media (min-width: 530px) {
@@ -895,7 +910,7 @@ body{
 .page-section__title {
       width: 500px;
       margin: 0 auto;
-      padding-bottom: 5px
+      padding-bottom: 10px
   }
     }
 
@@ -903,8 +918,7 @@ body{
 
 .page-section__title {
       width: 500px;
-      margin: 0 auto;
-      padding-bottom: 8px
+      margin: 0 auto
   }
     }
 
@@ -912,13 +926,12 @@ body{
 
 .page-section__title {
       width: 700px;
-      margin: 0 auto;
-      padding-bottom: 10px
+      margin: 0 auto
   }
     }
 
 .page-section__title:hover {
-      border-bottom: 0;
+      padding-bottom: 10.5px;
       cursor: pointer;
     }
 
@@ -931,27 +944,28 @@ body{
     background-color: rgba(20, 5, 2, 0.993);
   }
 
-.wrapper{
-  
-    padding-left: 22px;
-    padding-right: 22px;
-    max-width:1236px;
-    margin-left:auto;
-    margin-right: auto;
+.wrapper {
+  padding-left: 22px;
+  padding-right: 22px;
+  max-width: 1236px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.wrapper--medium{
-        max-width: 976px; 
-    }
+.wrapper--medium {
+    max-width: 976px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.wrapper--no-overflow{
-        overflow:hidden;
-    }
+.wrapper--no-overflow {
+    overflow: hidden;
+  }
 
-.wrapper .wrapper{
-        padding-left: 0;
-        padding-right: 0;   
-    }
+.wrapper .wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
 .google-map{
     width:100%;
@@ -1221,3 +1235,11 @@ transition: opacity .3s ease-out;
 .reveal-item--is-visible{
 opacity:1;
  }
+
+.project {
+  padding: 1rem 0;
+}
+
+.project--image {
+    margin: 1rem 0;
+  }

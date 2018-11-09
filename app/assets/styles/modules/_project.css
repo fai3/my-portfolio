@@ -1,0 +1,6 @@
+.project {
+  padding: 1rem 0;
+  &--image {
+    margin: 1rem 0;
+  }
+}

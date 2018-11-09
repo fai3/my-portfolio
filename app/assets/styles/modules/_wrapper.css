@@ -1,18 +1,19 @@
-.wrapper{
-  
-    padding-left: 22px;
-    padding-right: 22px;
-    max-width:1236px;
-    margin-left:auto;
+.wrapper {
+  padding-left: 22px;
+  padding-right: 22px;
+  max-width: 1236px;
+  margin-left: auto;
+  margin-right: auto;
+  &--medium {
+    max-width: 976px;
+    margin-left: auto;
     margin-right: auto;
-    &--medium{
-        max-width: 976px; 
-    }
-    &--no-overflow{
-        overflow:hidden;
-    }
-    .wrapper{
-        padding-left: 0;
-        padding-right: 0;   
-    }
+  }
+  &--no-overflow {
+    overflow: hidden;
+  }
+  .wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

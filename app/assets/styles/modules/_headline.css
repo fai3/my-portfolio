@@ -1,40 +1,43 @@
-.headline{
-    font-weight: 300;
-    font-family: 'Open Sans Condensed'sans-serif;
-    font-size: 1.9rem;
-    @mixin atMedium{
-        font-weight: 400;
+.headline {
+  font-weight: 300;
+  font-family: "Open Sans Condensed" sans-serif;
+  font-size: 1.4rem;
+  @mixin atMedium {
+    font-weight: 400;
     font-size: 2.7rem;
-    }
-    @mixin atLarge{
-        font-size: 3.5rem;
-        }
-    &--red{
+  }
+  @mixin atLarge {
+    font-size: 3.5rem;
+  }
+  &--red {
     color: $mainRed;
-    }
-    &--blue{
-        color: $mainBlue; 
-    }
-    &--orange{
-        color: $mainOrange; 
-    }
- 
- &--bold{
+  }
+  &--blue {
+    color: $mainBlue;
+  }
+  &--orange {
+    color: $mainOrange;
+  }
+
+  &--bold {
     font-weight: 700;
- }
- &--large{
-    font-size:3.125rem; 
- }
- &--shadow{
+  }
+  &--large {
+    font-size: 3.125rem;
+  }
+  &--shadow {
     text-shadow: 2px 4px 50px $mainOrange;
- }
- &--center{
-     text-align: center;
- }
- &--no-margin{
-    margin:0;
-}
-&--tiny{
+  }
+  &--center {
+    text-align: center;
+  }
+  &--no-margin {
+    margin: 0;
+  }
+  &--tiny {
     font-size: 1.0345rem;
-}
+  }
+  &--white {
+    color: white;
+  }
 }

@@ -1,14 +1,17 @@
-*{
-    box-sizing: border-box;
-
+* {
+  box-sizing: border-box;
 }
 
-a{
-    color: rgba($mainRed, .7);
-    text-decoration: none;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 700;
+a {
+  color: rgba($mainRed, 0.7);
+  text-decoration: none;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
 }
-body{
-    width: 100%;
+body {
+  width: 100%;
+}
+img {
+  width: 100%;
+  display: block;
 }
