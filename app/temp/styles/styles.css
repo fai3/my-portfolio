@@ -980,6 +980,7 @@ img {
 
 .testimonial{
     text-align: center;
+
 }
 
 /* &--left-m{
@@ -1081,13 +1082,18 @@ img {
     background-color: #f04;
     color:#fff;
     padding: 4px 7px;
-    border:4px dotted red;
+    margin: 0 1.5px;
+    border:4px solid red;
     border-radius: 10px;
 }
 
 .testimonial li a:hover{
         color: #d59541;
     }
+
+.testimonial__icon{
+display:inline-block;
+}
 
 @media (min-width: 800px) {
         .row::after{
@@ -1239,6 +1245,13 @@ opacity:1;
 .project {
   padding: 1rem 0;
 }
+
+@media (min-width: 800px) {
+
+.project {
+    padding: 1.5rem 0
+}
+    }
 
 .project--image {
     margin: 1rem 0;
